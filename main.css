@@ -94,7 +94,7 @@ body
 /* header */
 header{
  min-height: 100vh;
- background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/about.jpg) center/cover no-repeat fixed;
+ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/image_3.jpg) center/cover no-repeat fixed;
  margin-top: auto;
   
 }
