@@ -8,11 +8,6 @@ body
     font-family: 'Baloo Da 2', cursive;
     line-height: 1.5;
 }
-.title-text
-{
-    font-size: 40px;
-    text-align: center;
-}
 /* Navbar */
 .menu-bar{
     width: 50px;
@@ -154,24 +149,27 @@ header{
 }
 }
 /* end of header */
+
 /* About Us */
-#about
+
+
+/* #about
 {
-    /* padding: 40px; */
-    /* background-image: url(/images/—Pngtree—delicious\ pizza\ poster\ background_1055870.jpg);
+    padding: 40px;
+    background-image: url(/images/—Pngtree—delicious\ pizza\ poster\ background_1055870.jpg);
     background-repeat: no-repeat, repeat;
-    background-size: cover; */
-    /* background-position: center; */
-    /* height:; */
-    /* width: 570px; */
-    /* height: 455px; */
-    /* background-blend-mode:luminosity; */
-    /* background-color: white; */
-}
+    background-size: cover;
+    background-position: center;
+    height:;
+    width: 570px;
+    height: 455px;
+    background-blend-mode:luminosity;
+    background-color: white;
+} */
 .title-text{
     color:  #c59d5f;
     font-size: 100px;
-    background-image: url(/images/—Pngtree—delicious\ pizza\ poster\ background_1055870\ \(2\).jpg);
+    background-image: url(./images/—Pngtree—delicious\ pizza\ poster\ background_1055870\ \(2\).jpg);
     background-repeat: no-repeat, repeat;
     background-size: cover;
     /* font-family: 'Herr Von Muellerhoff', cursive; */
@@ -298,7 +296,7 @@ header{
 {
     color: white;
     height: 150px;
-    background: url(/images/pattern.jpg);
+    background: url(./images/pattern.jpg);
     text-align: center;
     padding: 50px 0 50px 0;
     /* width: 1300px; */
