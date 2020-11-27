@@ -8,132 +8,7 @@ body
     font-family: 'Baloo Da 2', cursive;
     line-height: 1.5;
 }
-/* Navbar */
-.menu-bar{
-    width: 50px;
-    height: 10px;
-    margin: 50px 10px 10px 20px;
-    position: fixed;
-    z-index: 1;
-    cursor: pointer;
-}
-.bar
-{
-    background: orange;
-    border-radius:10% ;
-    transition: 4s;
-}
-#bar1
-{
-    width: 40px;
-    height: 10px;
-    transform: translateY(-4px);
-}
-#bar2
-{
-    width: 40px;
-    height: 10px;
-}
-#bar3
-{
-    width: 40px;
-    height: 10px;
-    transform: translateY(4px);
-}
-.change .bar
-{
-    background: white;
 
-}
-.change#bar1
-{
-    transform: translateY(6px);
-    rotate: z(45deg);
-}
-.change#bar3
-{
-    transform: translateY(-15px);
-    rotate: z(-45deg);
-}
-.change#bar2{
-    opacity: 0;
-}
-.nav li a{
-    text-decoration: none;
-    color: orange;
-    font-size: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-.nav li:hover{
-    color: white;
-    background: orange;
-    padding-left: 10px;
-}
-.nav li
-{       
-    margin: 20px 10px 10px 20px;
-    padding-top: 10px;
-    list-style-type: none;
-}
-.nav{
-    display: none;
-}
-.change-btn
-{
-    display: block;
-}
-
-
-/* End of NavBar */
-/* header */
-header{
- min-height: 100vh;
- background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/image_3.jpg) center/cover no-repeat fixed;
- margin-top: auto;
-  
-}
-.hero{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;   
-    align-items: center;
-    position: absolute;
-    background-attachment: fixed;
-    width: 100%;
-    height: 100%;    
-}
-.hero .title{
-    color: white;
-    font-size: 50px;
-
-}
-.hero-button-pulsate{
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 13px 20px;
-    border-radius: 200px;
-    font-weight: bold;  
-    background: orange;
-    color: white;
-    cursor: pointer;
-    border: 2px solid orange;
-    margin-top: 10px;
-
-}
-.hero-button-pulsate:hover{
-    background: white;
-    color: orange;
-    border: none;
-}
-.hero-button-pulsate
-{
-    animation: pulsate 3s ease-in-out  ;
-    animation-iteration-count: infinite;
-    opacity: .3;
-    color: black;
-}
 @-webkit-keyframes pulsate
 {
 0%{
@@ -152,27 +27,12 @@ header{
 
 /* About Us */
 
-
-/* #about
-{
-    padding: 40px;
-    background-image: url(/images/—Pngtree—delicious\ pizza\ poster\ background_1055870.jpg);
-    background-repeat: no-repeat, repeat;
-    background-size: cover;
-    background-position: center;
-    height:;
-    width: 570px;
-    height: 455px;
-    background-blend-mode:luminosity;
-    background-color: white;
-} */
 .title-text{
     color:  #c59d5f;
     font-size: 100px;
-    background-image: url(./images/—Pngtree—delicious\ pizza\ poster\ background_1055870\ \(2\).jpg);
+    background-image: url(./images/Signature.jpg);
     background-repeat: no-repeat, repeat;
     background-size: cover;
-    /* font-family: 'Herr Von Muellerhoff', cursive; */
     font-family: "Josefin Sans", Arial, sans-serif;
     height: 620px;
 }
